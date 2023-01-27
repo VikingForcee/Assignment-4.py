@@ -1,5 +1,6 @@
 import random
 
+print("Q1")
 marks = int(input('Enter Marks :'))
 if 0 < marks < 100:
     if marks < 25:
@@ -20,6 +21,7 @@ else:
 print()
 print()
 
+print("Q2")
 year = int(input('Enter year :'))
 if year % 4 == 0:
     if year % 100 == 0 and year % 400 != 0:
@@ -32,6 +34,9 @@ else:
 
 print()
 print()
+
+print("Q3")
+
 marks = 0
 ques = 0
 
